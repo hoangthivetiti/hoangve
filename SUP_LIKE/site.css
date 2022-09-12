@@ -111,16 +111,242 @@
 
 
 
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  height: 200px; 
+  background: white;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+/* Style the list inside the menu */
+nav p{
+	left: 150px;
+}
+nav p span{
+
+  list-style-type: none;
+  padding: 0;
+  font-size: 12px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+nav div p  {
+	left: 150px;
+}
 
 
+article {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  background-color:white;
+  height: 300px; 
+}
 
-
-
-
-
-
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .last_form{
 	text-align: center;
 }
 
+
+
+
+.content #block_support .container-fluid .col-10 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 60% !important;
+	flex: 0 0 60% !important;
+	max-width: 60% !important;
+}
+.content #block_support .container-fluid .col-10 .row {
+	margin: auto;
+	justify-content: space-between;
+	
+}
+.content #block_support .container-fluid .col-10 .row .col-lg-6 {
+	width: 70% !important;
+	/* background-color: white; */
+	margin-bottom: 23px;
+	margin-top: 20px;
+	height: 90px;
+	border-radius: 12px;
+	display: flex !important;
+}
+.content #block_support .container-fluid .col-10 .row .col-lg-6 svg {
+	margin: 12px;
+	padding: 7px;
+	height: 40px !important;
+	width: 40px !important;
+	background-color: white;
+	box-shadow: 0 0 5px #999;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* ======= content ======= */
+
+.content {
+	margin-top: 100px;
+	background-color: #17a2b8;
+}
+
+.content .block_item {
+	width: 90%;
+	margin: auto;
+}
+
+.content #block_1 {
+	height: 120px;
+}
+.content #block_1 .container-fluid {
+	padding: 12px 0;
+}
+.content #block_1 .container-fluid .col-12 {
+	background-color: #fff;
+	height: 70px;
+	border-radius: 12px;
+	padding-top: 23px;
+}
+
+.content #block_11 {
+	color: white;
+}
+
+.content #block_12 {
+	height: 140px;
+}
+.content #block_12 .container-fluid {
+	padding: 12px 0;
+}
+.content #block_12 .container-fluid .col-12 {
+	background-color: #fff;
+	height: 100px;
+	border-radius: 12px;
+	padding-top: 23px;
+}
+
+.content #block_13 .container-fluid .col-10 .row .col-lg-12 {
+	width: 90% !important;
+	background-color: white;
+	margin-bottom: 23px;
+	height: 70px;
+	border-radius: 12px;
+	padding: 23px;
+}
+
+.content #block_15 {
+	height: 170px;
+}
+.content #block_15 .container-fluid {
+	padding: 12px 0;
+}
+.content #block_15 .container-fluid .col-12 {
+	background-color: #fff;
+	height: 120px;
+	border-radius: 12px;
+	padding-top: 23px;
+}
+
+.content #block_16 .container-fluid .col-10 .row {
+	margin: auto;
+	justify-content: space-between;
+}
+.content #block_16 .container-fluid .col-10 .row .col-lg-6 {
+	width: 70% !important;
+	background-color: white;
+	margin-bottom: 23px;
+	height: 70px;
+	border-radius: 12px;
+	padding: 23px;
+}
+
+.content .container-fluid .row .col-12 {
+	max-width: 85% !important; 
+	margin: auto;
+}
+
+.content .container-fluid .bg-primary {
+	background-color: none !important;
+	background: none !important;
+}
+.content .container-fluid .bg-success {
+	background-color: none !important;
+	background: none !important;
+}
+
+
+.content .container-fluid .row .col-md-3 iframe {
+	width: 100% !important;
+}
+
+.content .container-fluid .row .col-md-9 {
+	color: white;
+}
+@media screen and (min-width: 768px) {
+	.container-fluid .col-md-9 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50% !important;
+		flex: 0 0 50% !important;
+		max-width: 50% !important;
+		background-color: none;
+	}
+
+	.container-fluid .col-md-3 {
+		-webkit-box-flex: 0;
+    	-ms-flex: 0 0 50% !important;
+    	flex: 0 0 50% !important;
+    	max-width: 50% !important;
+		background-color: none;
+	}
+}
+
+@media (min-width: 992px){
+
+	.col-lg-6 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 49% !important;
+		flex: 0 0 49% !important;
+		max-width: 49% !important;
+	}
+}
+
+
+
+
+
+.the_end{
+	width: 100%;
+	height: 350px;
+
+}
+.end ul li{
+	list-style-type: none;
+
+}
+
+.end ul li a{
+	color: white;
+	font-size: 14px;
+	display: block;
+	background-color: #68CED4;
+    text-align: center;
+   
+
+}
