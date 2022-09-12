@@ -7,24 +7,120 @@
 }
 .navbar  {
 	width: 100%;
-	height: 150px;
-    
+	height: 120px;
 	background-color:#4752F6;
 	}
 
 .navbar ul{
 	display: flex;
 	align-items: center;
-	left: 40%;
 	 justify-content: space-between;
-	 color: orange;
+	 list-style-type: none;
+	 margin-left: 380px;
+	 margin-top: 30px;
+
 }
 .navbar ul li a {
     margin-right: 30px;
     font-size: 16px;
+    color: white;
+
 	    }
+#language{
+	border-radius: 10px;
+	width: 50px;
+	height: 40px;
+}
+
+	    .title{
+	    	padding-top: 20px;
+	    }
+
+	    .title h3{
+	    	color: white;
+	    	font-style: italic;
+	    	font-size: 20px;
+	    	text-align: center;
+	    	font-weight: bold;
+
+	    }
+	    .title h5{
+	    	color: white;
+	    	font-size: 13px;
+	    	text-align: center;
+
+	    }
+
 .login{
 	width: 100%;
-	height: 200px;
+	height: 350px;
 	background-color: #7E6BE3;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 80px;
 }
+
+
+.login form{
+	width: 50%;
+	height: 250px;
+	left:80px ;
+	margin-left: 350px;
+	margin-top: 10px;
+	  background-color: white;
+	  border-radius: 20px;
+	
+
+}
+	
+
+
+
+.form-control:hover {
+	
+	background-color: #e6f4f2;
+    
+}
+.btn.primary:hover{
+	border-color: #85D7DC;
+	background-color: #85D7DC;
+	color: red;
+}
+
+
+
+
+.button {
+	
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttonn{
+	width: 100%;
+	height: 50px;
+    border: none;
+	color: white;
+	background-color:#86D7DC;
+	border-color:#86D7DC;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+	left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.last_form{
+	text-align: center;
+}
+
